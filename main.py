@@ -69,8 +69,7 @@ if analyze_button:
         )
         st.session_state.parsed_resume = parsed_resume  # save for later use
 
-        st.subheader("Parsed Resume:")
-        st.write(parsed_resume)
+        
 
         # Analyze resume with job description
         analysis = client.predict(
