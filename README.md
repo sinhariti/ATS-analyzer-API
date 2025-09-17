@@ -1,6 +1,8 @@
 # ATS-analyzer-API
 
 ## ATS Score analyzer 
+<img width="1266" height="425" alt="Screenshot 2025-09-14 at 1 35 22 PM" src="https://github.com/user-attachments/assets/3c5e06dd-719f-4e36-9e6f-dae5b522cad8" />
+
 ## Setup Instructions
 
 ### 1. Clone the repository
