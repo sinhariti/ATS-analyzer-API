@@ -139,11 +139,6 @@ if not HF_TOKEN:
 
 # Connect to the Hugging Face Space once
 client = Client("girishwangikar/ResumeATS", hf_token=HF_TOKEN)
-@app.before_request
-def log_request_info():
-    print("Incoming request:", request.method, request.url)
-    print("Headers:", request.headers)
-    print("Files:", request.files)
 @app.route('/process_resume', methods=['POST'])
 def process_resume():
     """
