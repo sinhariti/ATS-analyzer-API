@@ -1,8 +1,0 @@
-[theme]
-base = "light"
-
-primaryColor = "#7C3AED"              # Purple-600 (a bit darker)
-backgroundColor = "#F9FAFB"           # Very light pink background
-secondaryBackgroundColor = "#ffff"  # Sidebar or containers
-textColor = "#111827"                 # Dark text everywhere else
-font = "sans serif"
