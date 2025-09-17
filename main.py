@@ -134,7 +134,6 @@ app = Flask(__name__)
 CORS(app, origins=["http://localhost:5173"])  # Enable CORS for all routes
 load_dotenv(dotenv_path=".env")
 HF_TOKEN = os.getenv("HF_TOKEN")
-print("Loaded HF_TOKEN:", HF_TOKEN) 
 if not HF_TOKEN:
     raise RuntimeError("HF_TOKEN not set in environment. Run: export HF_TOKEN=your_token")
 
